@@ -72,7 +72,7 @@ int main() {
     printf("--- Сведения о машинах марки 'Toyota', зарегистрированных до 2007 года ---\n\n");
 
     for (int i = 0; i < count; i++) {
-        // Условие: Марка "Toyota" И год регистрации < 2007
+
         if (strcmp(cars[i].brand, "Toyota") == 0 && cars[i].reg_year < 2007) {
             
             printf("Марка: %s\n", cars[i].brand);
