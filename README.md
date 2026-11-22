@@ -46,17 +46,17 @@
 #include <string.h>
 
 struct Car {
-    char brand[50];       // Марка автомобиля
-    char manufacturer[50];// Производитель
-    char type[50];        // Тип
-    int year;             // Год выпуска
-    int reg_year;         // Дата регистрации (год)
+    char brand[50];      
+    char manufacturer[50];
+    char type[50];        
+    int year;             
+    int reg_year;         
 };
 
 int main() {
-    setlocale(LC_ALL, "RUS"); // Для корректного вывода кириллицы
+    setlocale(LC_ALL, "RUS"); 
 
-    // Массив структур с 6 записями
+    
     struct Car cars[6] = {
         {"Toyota", "Toyota Motor Corp", "Седан", 2005, 2006},
         {"BMW", "BMW AG", "Внедорожник", 2008, 2008},
@@ -66,8 +66,8 @@ int main() {
         {"Toyota", "Toyota Motor Corp", "Седан", 2006, 2008}
     };
 
-    int count = 6; // Количество записей
-    int found = 0; // Флаг, нашли ли мы подходящую машину
+    int count = 6; 
+    int found = 0; 
 
     printf("--- Сведения о машинах марки 'Toyota', зарегистрированных до 2007 года ---\n\n");
 
