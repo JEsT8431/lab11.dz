@@ -45,7 +45,6 @@
 #include <locale.h>
 #include <string.h>
 
-// Структура для хранения записи "Автомобиль"
 struct Car {
     char brand[50];       // Марка автомобиля
     char manufacturer[50];// Производитель
