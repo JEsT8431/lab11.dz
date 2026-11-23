@@ -37,6 +37,7 @@
 6. **Конец**
 
 ## Блок-схема
+
 <img width="761" height="721" alt="Untitled Diagram (3)" src="https://github.com/user-attachments/assets/892e2f9a-5a16-4be9-9d89-cb2754df9aad" />
 
 
